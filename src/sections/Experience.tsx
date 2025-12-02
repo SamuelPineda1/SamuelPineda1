@@ -11,25 +11,18 @@ type ExperienceItem = {
 
 const items: ExperienceItem[] = [
   {
-    title: 'Computer Systems Technician – Software Support',
-    place: 'Mohawk College',
-    period: '2023 – Present',
+    title: "Junior Full-Stack Developer (Co-op)",
+    place: "MEDIC – Mohawk College",
+    period: "Jan 2025 – Aug 2025",
     description:
-      'Coursework in Java, data structures, cloud computing (Azure), .NET, databases, and mobile/web development. Dean’s Honour List.',
+      "Developed reusable React + Material UI components, built backend templates with FastAPI and PostgreSQL, participated in Agile sprints, assisted with planning and testing, and delivered product demos to improve UX."
   },
   {
-    title: 'Freelance / Personal Projects',
-    place: 'Remote',
-    period: 'Ongoing',
+    title: "Freelance Web Developer",
+    place: "Self-employed – Canada",
+    period: "2024 – Present",
     description:
-      'Built web, mobile, and automation projects including Sports Investor App, sports analytics tools, and FrenchieFans website.',
-  },
-  {
-    title: 'Customer Service Team Member',
-    place: 'Fortinos',
-    period: '2024',
-    description:
-      'Worked in a fast-paced environment, helping customers and collaborating with a diverse team.',
+      "Designed and launched responsive WordPress sites with Astra and Spectra blocks. Improved SEO, performance, and mobile usability for clients across multiple industries."
   },
 ];
 

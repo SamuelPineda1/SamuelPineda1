@@ -33,16 +33,17 @@ const projects: Project[] = [
     tech: ['React', 'TypeScript', '.NET', 'EF Core', 'Material UI'],
   },
   {
-    title: 'SportsPulse Mobile',
-    description:
-      'React Native app that surfaces sports data and lets users explore stats in a clean mobile interface.',
-    tech: ['React Native', 'Expo', 'TypeScript', 'REST APIs'],
-  },
-  {
     title: 'FrenchieFans',
     description:
+      'Built an interactive web-based puzzle game implementing score tracking and move validation, improving usability and logic comprehension.',
+    tech: ['WordPress', 'Astra', 'JavaScript'],
+  },
+  {
+    title: 'Triangular Peg Solitaire',
+    description:
       'WordPress + Astra site with blog + affiliate product recommendations focused on French Bulldogs.',
-    tech: ['WordPress', 'Astra', 'WooCommerce'],
+    tech: ['JavaScript', 'SVG'],
+    demo: "/triangle-game/index.html",
   },
 ];
 

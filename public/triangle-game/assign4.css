@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* <!-- Author: Samuel Pineda [000917696] --> */
+
+@keyframes firstAn {
+    0% {border-color: white; background-color: blue; border-radius: 20px; transform: translateX(0) rotate(0);}
+    25%{border-radius: 150px;}
+    50% {border-color: black; background-color: transparent; background-image: url("./images/jslogo.png"); border-radius: 0px; transform: translateX(0) rotate(180deg);}
+    75%{border-radius: 150px;}
+    100% {border-color: white; background-color: blue; border-radius: 20px; left: 20px; transform: translateX(0) rotate(0);}
+}
+@keyframes name {
+    0% {opacity: 100%;}
+    25% {opacity: 0;}
+    60% {opacity: 0;}
+    100% {opacity: 100%;}
+}
+
+@keyframes spin{
+    0% {transform: scaleX(1) rotate(0); width: 100%;}
+    100% {transform: scalex(-1) rotate(500deg); width: 0}
+}
+
+@keyframes marbleMovement{
+    
+}
+
+#logo
+{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    background-color: blue;
+    z-index: -1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: firstAn;
+}
+
+span#b
+{
+    color: white;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: name;
+    z-index: 0;
+}
+
+.yellow
+{
+    color: yellow;
+}
+
+#svg{
+    padding: 20px;
+}
+

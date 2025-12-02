@@ -33,20 +33,15 @@ export const Hero: React.FC = () => {
 
             <Typography
               variant="h2"
-              sx={{
-                mt: 2,
-                mb: 2,
-                fontSize: { xs: '2.4rem', md: '3.4rem' },
-                lineHeight: 1.05,
-              }}
+              sx={{ mt: 2, mb: 2, fontSize: { xs: '2.4rem', md: '3.4rem' }, lineHeight: 1.05 }}
             >
-              Building performant web, cloud, and data-driven apps.
+              Building modern, efficient full-stack applications.
             </Typography>
 
             <Typography variant="body1" sx={{ color: 'text.secondary', maxWidth: 520, mb: 4 }}>
-              I&apos;m Samuel, a second-year Computer Systems Technician student focused on
-              modern web applications, automation, and cloud infrastructure. I enjoy turning
-              ideas into reliable software using React, TypeScript, Python, and Azure.
+              I’m Samuel, a Computer Systems student working with React, TypeScript, 
+              FastAPI, .NET, and SQL. I focus on clean code, debugging, and practical, 
+              scalable solutions.
             </Typography>
 
             <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>

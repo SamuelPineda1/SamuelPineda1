@@ -13,11 +13,12 @@ export const About: React.FC = () => {
       </Typography>
 
       <Typography variant="body1" sx={{ color: 'text.secondary', mb: 3 }}>
-        I&apos;m an international student at Mohawk College studying Computer Systems
-        Technician – Software Support. I enjoy building web and mobile apps, experimenting
-        with sports analytics, and automating workflows with tools like FastAPI, n8n, and
-        Telegram bots. I care about clean code, performance, and making things that are
-        actually useful.
+        Detail-oriented and passionate Software Engineering student with hands-on experience in full-stack web development using
+        React, TypeScript, Python (FastAPI), C#, and SQL. Skilled in creating scalable and efficient applications, with a strong
+        foundation in debugging, data structures, and API integration. Recognized for logical problem-solving and teamwork in Agile
+        environments. Excited to contribute to innovative, projects while expanding expertise across both frontend and backend 
+        technologies.
+
       </Typography>
 
       <Box>
@@ -25,10 +26,11 @@ export const About: React.FC = () => {
           Focus areas right now:
         </Typography>
         <Stack direction="row" flexWrap="wrap" gap={1}>
-          <Chip label="Full-stack apps" variant="outlined" />
-          <Chip label="Cloud & automation" variant="outlined" />
-          <Chip label="Data structures & algorithms" variant="outlined" />
-          <Chip label="Sports analytics tools" variant="outlined" />
+          <Chip label="Full-stack development" variant="outlined" />
+            <Chip label="API design & integration" variant="outlined" />
+            <Chip label="Database modeling" variant="outlined" />
+            <Chip label="Debugging & problem solving" variant="outlined" />
+            <Chip label="Agile teamwork" variant="outlined" />
         </Stack>
       </Box>
     </Section>
