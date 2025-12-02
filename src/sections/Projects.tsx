@@ -43,7 +43,7 @@ const projects: Project[] = [
     description:
       'WordPress + Astra site with blog + affiliate product recommendations focused on French Bulldogs.',
     tech: ['JavaScript', 'SVG'],
-    demo: `${import.meta.env.BASE_URL}triangle-game/index.html`,
+    demo: `${import.meta.env.BASE_URL}/triangle-game/index.html`,
   },
 ];
 
